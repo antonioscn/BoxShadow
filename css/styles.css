@@ -1,0 +1,124 @@
+/* CSS */
+
+/* importando as fontes utilizadas */
+@import url('https://fonts.googleapis.com/css?family=Poppins:%20200,300,400,500,600,700,800,90&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    margin: 30px;
+}
+
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 50px;
+}
+
+h2{
+    margin-bottom: 1.6rem;
+    text-align: center;
+    color: #333;
+}
+
+#box-shadow-generator{
+    display: flex;
+    flex-direction: row;
+}
+
+#controls-container{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+/* Controles da sombra */
+.controles{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.form-control label{
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.range-input{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.ref-input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ref-input p{
+    margin-left: 4px;
+}
+
+.form-control input[type="text"]{
+    height: 30px;
+    width: 100%;
+    margin-left: 1rem;
+    text-align: right;
+    border: none;
+}
+
+.result{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* Preview */
+
+#preview{
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  width: 100%;
+}
+
+#box{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(161, 161, 161, 0.342);
+    margin: 30px;
+}
+
+/* Área de geração */
+#generated-rule{
+    text-align: center;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#rules-area{
+    width: 100%;
+    padding: 10px;
+    border: solid 0.11px rgba(51, 51, 51, 0.178);
+    background-color: rgba(0, 0, 0, 0.055);
+}
